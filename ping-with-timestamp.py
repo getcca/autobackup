@@ -1,0 +1,1 @@
+ping.exe -t 202.96.209.5 |Foreach{"{0} - {1}" -f (Get-Date),$_} >> d:\Ping.txt
